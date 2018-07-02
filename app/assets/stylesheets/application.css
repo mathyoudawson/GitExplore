@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+#header {
+  color: beige;
+}
+
+#content {
+  font-family: "Courier New";
+  background-color: beige;
+  color: #2E2F30;
+}
+
+#footer {
+  color: beige;
+}
+
+.application {
+  background-color: #2E2F30;
+  font-family: "Courier New";
+  padding: 30px;
+}
