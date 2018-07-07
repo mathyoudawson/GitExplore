@@ -16,7 +16,14 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
+# graphql related gems. GraphiQl grants ability to test queries
 gem 'graphql'
+gem "graphiql-rails"
+
+# graphql-client gems from https://github.com/github/graphql-client
+# gem "graphql/client"
+# gem "graphql/client/http"
+gem 'graphql-client'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -63,4 +70,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'graphiql-rails', group: :development
+# gem 'graphiql-rails', group: :development
